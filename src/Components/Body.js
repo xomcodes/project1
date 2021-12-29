@@ -31,20 +31,20 @@ const Body = () => {
       </div>
       <div className="mylanguage">
         <p className="language">Google offered in:</p>
-        <a href="#" class="speak">
+        <p className="p" className="speak">
           Hausa
-        </a>
-        <a href="#" class="speak">
+        </p>
+        <p className="p"className="speak">
           Igbo
-        </a>
-        <a href="#" class="speak">
+        </p>
+        <p className="p" className="speak">
           {" "}
           Èdè Yorùbá
-        </a>
-        <a href="#" class="speak">
+        </p>
+        <p className="p" className="speak">
           {" "}
           Nigerian Pidgin
-        </a>
+        </p>
       </div>
     </div>
   );
