@@ -1,6 +1,5 @@
 import { useState } from "react";
 // import "./App.css"
-// import logo from "../sidehustle.png";
 import logo from '../TRU_Logo.png'
 import "./Body.css";
 
@@ -13,7 +12,7 @@ const Body = () => {
       {pageContent ? (
         <p className ='pcontent'>{pageContent }</p>
       ) : (
-        <img className="shlogo" src={logo} alt="sideHustle" />
+        <img className="shlogo" src={logo} alt="toysRus" />
         
       )}
 
