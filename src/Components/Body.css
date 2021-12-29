@@ -1,0 +1,92 @@
+.pcontent{
+  margin: 100px;
+  font-size: 20px;
+  
+}
+
+
+
+input {
+  width: 38%;
+  padding: 12px 15px;
+  border-radius: 20px;
+  margin: 9px;
+  text-align: center;
+  /* border: 1px solid rgb(53, 53, 53); */
+  outline: none;
+  border: 1px solid grey;
+  
+}
+
+input[type="text"]:hover {
+  border: 1px solid grey;
+  box-shadow: 1px 2px rgb(184, 185, 184);
+}
+
+.container {
+  text-align: center;
+}
+
+img.shlogo {
+  /* max-height: 50rem; */
+  /* text-align: center; */
+  width: 37%;
+  display: flex;
+  margin: auto;
+  padding-top:60px;
+  padding-bottom: 40px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 13px;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 6px;
+  border: none;
+  margin: 20px 8px;
+  /* background-color:rgb(245, 231, 229); */
+  background-color: rgb(248, 241, 240);
+}
+
+.btn:hover {
+  border: 1px solid gray;
+  background-color: whitesmoke;
+}
+
+.mylanguage {
+  display: inline-flex;
+  margin: 9px auto;
+}
+
+.speak {
+  margin: 0px 6px;
+  text-decoration: none;
+}
+
+.speak:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+@media screen and (max-width: 320px) {
+  img.shlogo {
+    width: 90%;
+  }
+
+  input {
+    width: 95%;
+  }
+
+  .mylanguage {
+    margin: 30px auto;
+    font-size: 13px;
+    /* font-size: 14px; */
+  }
+  .speak {
+    margin: 0px 2px 4px;
+  }
+}

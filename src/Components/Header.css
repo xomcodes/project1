@@ -1,0 +1,34 @@
+.heading {
+  /* text-align: right; */
+  display: flex;
+  justify-content: right;
+  text-align: right;
+  align-items: center;
+  /* width: 100% */
+}
+.head {
+  margin: 5px 12px;
+  text-decoration: none;
+  color: black;
+}
+
+.head:hover {
+  text-decoration: underline black;
+}
+
+.shapps {
+  width: 25px;
+  border-radius: 60%;
+  margin: 10px 20px 10px 5px;
+}
+.shaccount {
+  width: 35px;
+  border-radius: 50%;
+  margin: 10px 20px 10px 5px;
+}
+
+@media screen and (max-width: 320px) {
+  .head {
+    display: none;
+  }
+}
