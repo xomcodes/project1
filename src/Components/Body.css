@@ -45,8 +45,8 @@ img.shlogo {
   border-radius: 6px;
   border: none;
   margin: 20px 8px;
-  /* background-color:rgb(245, 231, 229); */
-  background-color: rgb(248, 241, 240);
+  background-color:rgb(245, 231, 229);
+  /* background-color: rgb(248, 241, 240); */
 }
 
 .btn:hover {
@@ -72,21 +72,24 @@ img.shlogo {
 
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
   img.shlogo {
     width: 90%;
   }
 
   input {
-    width: 95%;
+    width: 80%
   }
 
   .mylanguage {
     margin: 30px auto;
-    font-size: 13px;
-    /* font-size: 14px; */
+    /* font-size: 3px; */
+    font-size: 12px;
+  
   }
   .speak {
     margin: 0px 2px 4px;
+    /* font-size: 10px; */
+    word-spacing: 5px;
   }
 }

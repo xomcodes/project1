@@ -30,17 +30,17 @@ const Body = () => {
       </div>
       <div className="mylanguage">
         <p className="language">Google offered in:</p>
-        <p className="p" className="speak">
+        <p className="speak">
           Hausa
         </p>
-        <p className="p"className="speak">
+        <p className="speak">
           Igbo
         </p>
-        <p className="p" className="speak">
+        <p className="speak">
           {" "}
           Èdè Yorùbá
         </p>
-        <p className="p" className="speak">
+        <p className="speak">
           {" "}
           Nigerian Pidgin
         </p>
