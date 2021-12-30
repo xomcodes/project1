@@ -12,7 +12,7 @@ const Body = () => {
       {pageContent ? (
         <p className ='pcontent'>{pageContent }</p>
       ) : (
-        <img className="shlogo" src={logo} alt="toysRus" />
+        <img className="shlogo" src={logo} alt="toyRus" />
         
       )}
 
@@ -40,7 +40,7 @@ const Body = () => {
           {" "}
           Èdè Yorùbá
         </p>
-        <p className="speak">
+        <p  className="speak">
           {" "}
           Nigerian Pidgin
         </p>
